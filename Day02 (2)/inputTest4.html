@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>로그인</title>
+    <!-- 태그 input 안에 type이 image인 것을 스타일을 적용해-->
+    <!-- vertical 세로 horizontal 가로-->
+    <!-- align 줄 맞춘다.-->
+    <style>
+        
+        input[type="image"] {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label>아이디: <input type="text" id="user_id" size="10"></label>
+            <label>비밀번호: <input type="password" id="user_pw" size="10"></label>
+            <input type="image" src="images/login.png" alt="로그인">
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>웹 폰트 다운로드 사용</title>
+        <style>
+            @font-face {
+                font-family: '점꼴체';
+                src:local('점꼴체'), 
+                    url("fonts/나눔손글씨\ 점꼴체.ttf")format('truetype');
+            }
+            @font-face {
+                font-family: '초딩희망';
+                src:local('초딩희망'), 
+                    url("fonts/나눔손글씨\ 초딩희망.ttf")format('truetype');
+            }
+            .wfont{
+                font-family: '점꼴체',sans-serif;
+                font-weight: bolder;
+            }
+            .wfont1{
+                font-family: '초딩희망',sans-serif;
+                font-weight: bolder;
+            }
+            p{
+                font-size: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>자바 공부 너무 쉬워요.</p>
+        <p class="wfont">HTML 공부 너무 쉬워요.</p>
+        <p class="wfont1">CSS 공부 너무 쉬워요.</p>
+    </body>
+</html>
